@@ -45,6 +45,19 @@
 	    </div>
 	  </div>
 	</div>
+	<div class="container text-center">
+		    <img src="launch.png" class="rocket" alt="...">
+			<img src="launch.png" class="rocket2" alt="...">
+			<img src="launch.png" class="rocket3" alt="...">
+			<img src="launch.png" class="rocket4" alt="...">
+			<img src="launch.png" class="rocket5" alt="...">
+			<img src="launch.png" class="rocket6" alt="...">
+			<img src="launch.png" class="rocket7" alt="...">
+			<img src="launch.png" class="rocket8" alt="...">
+			<img src="launch.png" class="rocket9" alt="...">
+			<img src="launch.png" class="rocket10" alt="...">
+
+	</div>
 </div>
 
 
@@ -67,6 +80,8 @@
    	    	<img src="dkpfavicon.jpg" class="img-fluid" alt="...">
 		</div>
 	</div>
+		<img src="ufo.png" class="ufo" alt="...">
+	
 </div>
 
 
@@ -112,12 +127,12 @@
 		    <p class="font5">Coding Dojo - San Jose, CA</p>
 	   		<p class="font5">1920 Zanker Rd #20, San Jose, CA 95112</p>
 	   		<a href="https://codingdojo.com"><p class="font5">WWW.CODINGDOJO.COM</p></a>
-
-	   		
-	   	   	<p class="font5">HTML & CSS - COMPLETED</p>
-	   	   	<p class="font5">Python - COMPLETED</p>
-	   	    <p class="font5">JAVA - COMPLETED</p>
-	   	   	<p class="font5">MERN - IN PROGRESS</p>
+			<br>
+			<br>   		
+	   	   	<p class="font3">HTML & CSS - COMPLETED</p>
+	   	   	<p class="font3">Python - COMPLETED</p>
+	   	    <p class="font3">JAVA - COMPLETED</p>
+	   	   	<p class="font3">MERN - IN PROGRESS</p>
 	   	    
 	   	   	
 	   
@@ -158,7 +173,7 @@
 
 
 
-<div class="container text-center">
+<div class="container text-center mb-5">
 <h1 class="font2">Technical Projects</h1>
 	<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 	  <div class="carousel-inner">
@@ -171,11 +186,25 @@
 </div>
 
 
+<div class="footer">
+	<div class="container mt-5 pt-5">
+		  <div class="row">
+	    <div class="col-sm">
+	    	<a href="https://github.com/Dylankp101"><img src="githubcolor.png" class="img-fluid" width="40" height="40" alt="..."></a>
+	        <a href="https://www.linkedin.com/in/dylan-katrenick-perez-16b6aa167/"><img src="linkedincolor.png" class="img-fluid" width="40" height="40" alt="..."></a>
+	        <a href="https://www.dropbox.com/s/mzhkmsdk4v8f4du/DKPResume.docx?dl=0"><img src="dropbox.png" class="img-fluid" width="40" height="40" alt="..."></a>
 
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm">
+	    	<h1 class="font2">-Dylan's Portfolio-</h1>
+			<p class="font2">Made with BootStrap.</p>
+	    </div>
+	  </div>
 
-<!-- Waves -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,288L40,261.3C80,235,160,181,240,176C320,171,400,213,480,197.3C560,181,640,107,720,96C800,85,880,139,960,181.3C1040,224,1120,256,1200,240C1280,224,1360,160,1400,128L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
-
+	</div>
+</div>
 
 
 

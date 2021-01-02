@@ -3,6 +3,11 @@
 .navbar{
 	background-color:black;
 }
+.footer{
+	background-color:black;
+	text-align: center;
+	color: white;
+}
 .bg-animated{
 	width: 100%;
 	height: 100vh;
@@ -51,7 +56,7 @@
 
 .font3{
 font-family: 'Press Start 2P', cursive;
-	
+	color: green;
 }
 .font4{
 font-family: 'Rock Salt', cursive;
@@ -70,6 +75,145 @@ font-family: 'Special Elite', cursive;
 }
 
 
+.rocket{
+	padding: 5px;
+	position: center;
+	animation-name: fly;
+	animation-duration: 10s;
+	animation-fill-mode: both;
+	animation-iteration-count: 2;	
+}
+@keyframes fly{
+	from{ transform: translateY(600px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket2{
+		padding: 5px;
+	
+	position: center;
+	animation-name: fly2;
+	animation-duration: 6.5s;
+	animation-fill-mode: both;
+	animation-iteration-count: 3;	
+}
+@keyframes fly2{
+	from{ transform: translateY(600px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket3{
+		padding: 5px;
+	
+	position: center;
+	animation-name: fly3;
+	animation-duration: 4.5s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;	
+}
+@keyframes fly3{
+	from{ transform: translateY(600px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket4{
+		padding: 5px;
+	
+	position: center;
+	animation-name: fly4;
+	animation-duration: 8s;
+	animation-fill-mode: both;
+	animation-iteration-count: 2;	
+}
+@keyframes fly4{
+	from{ transform: translateY(600px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket5{
+		padding: 5px;
+	
+	position: center;
+	animation-name: fly5;
+	animation-duration: 7s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;	
+}
+@keyframes fly5{
+	from{ transform: translateY(600px)}
+	to{ transform: translateY(-1100px)}
+}
 
+.rocket6{
+		padding: 5px;
+	
+	position: center;
+	animation-name: fly6;
+	animation-duration: 4s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;	
+}
+@keyframes fly6{
+	from{ transform: translateY(600px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket7{
+		padding: 5px;
+	
+	position: center;
+	animation-name: fly7;
+	animation-duration: 5s;
+	animation-fill-mode: both;
+	animation-iteration-count: 2;	
+}
+@keyframes fly7{
+	from{ transform: translateY(600px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket8{
+		padding: 5px;
+	
+	position: center;
+	animation-name: fly8;
+	animation-duration: 6s;
+	animation-fill-mode: both;
+	animation-iteration-count: 3;	
+}
+@keyframes fly8{
+	from{ transform: translateY(600px)}
+	to{ transform: translateY(-1100px)}
+}
 
-
+.rocket9{
+		padding: 5px;
+	
+	position: center;
+	animation-name: fly9;
+	animation-duration: 7s;
+	animation-fill-mode: both;
+	animation-iteration-count: 2;	
+}
+@keyframes fly9{
+	from{ transform: translateY(600px)}
+	to{ transform: translateY(-1100px)}
+}
+.rocket10{
+		padding: 5px;
+	
+	position: center;
+	animation-name: fly10;
+	animation-duration: 9s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;	
+}
+@keyframes fly10{
+	from{ transform: translateY(600px)}
+	to{ transform: translateY(-1100px)}
+}
+.ufo{
+	position: center;
+	animation-name: ufofly;
+	animation-duration: 8s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;	
+}
+@keyframes ufofly{
+	from{ transform: translateX(1500px)}
+	to{ transform: translateX(-600px)}
+}
