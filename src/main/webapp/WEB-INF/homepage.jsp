@@ -7,71 +7,174 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="icon" href="elephant.png">
+<link rel="icon" href="launch.png">
+<link rel="stylesheet" href="style.css" >
 <title>Dylan's Portfolio - DylanKP.com</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Kaushan+Script&family=Major+Mono+Display&family=Mr+Dafoe&family=Patrick+Hand&family=Press+Start+2P&family=Quantico&family=Rock+Salt&family=Special+Elite&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
 
 <!-- NAVBAR -->
 <!-- Image and text -->
-<nav class="navbar navbar-warning bg-warning">
+<nav class="navbar">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="elephant.png" alt="" width="30" height="30" class="d-inline-block align-top">
+ 
+    <h1 class="navbar-brand">
+      <img src="launch.png" alt="" width="30" height="30" class="d-inline-block align-top">
       Dylan's Portfolio
+    </h1>
+
+    <a class="" href="https://github.com/Dylankp101">
+      <img src="git.png" alt="" width="30" height="30" >
     </a>
+
   </div>
 </nav>
 
 
-<!-- WAVES -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,224L34.3,208C68.6,192,137,160,206,176C274.3,192,343,256,411,277.3C480,299,549,277,617,245.3C685.7,213,754,171,823,160C891.4,149,960,171,1029,160C1097.1,149,1166,107,1234,90.7C1302.9,75,1371,85,1406,90.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
-
-
-
-<!-- BODY -->
-<div class="container">
-	<div class="row justify-content-center">
-	
-	
-		<div class="col-md pt-5">
-		    <h1>Hey, I'm Dylan. </h1>
-		    <p>Student, web designer and developer from San Jose, CA. I have a passion for building websites that provide beneficial service to all my clients. If your interested in Hiring me you can dowload my resume from the dropbox link at the bottom of the page. </p>
-	    </div>
+<div class="bg-animated">
+	<div class="container">
+	  <div class="row text-center">
+	    <div class="col-sm">
+	    <h1 class="head1">Hi, I'm Dylan.</h1>
+	    <h2 class="head2">Web Designer & Developer</h2>
+	    <a href="#aboutme"><button type="button" class="btn btn-info btn-lg mt-4 pl-5 pr-5 pt-2 pb-2">ABOUT ME</button></a>
 	    
-		<div class="col-sm">
-	    	<div class="card" style="width: 18rem;">
- 				<img src="dyl.jpg" class="card-img-top" alt="...">
-    		</div>
-		</div>
-		
-		
+	    </div>
+	  </div>
 	</div>
 </div>
 
 
-<!-- WAVES  -->
-<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,96L34.3,128C68.6,160,137,224,206,229.3C274.3,235,343,181,411,170.7C480,160,549,192,617,197.3C685.7,203,754,181,823,181.3C891.4,181,960,203,1029,218.7C1097.1,235,1166,245,1234,208C1302.9,171,1371,85,1406,42.7L1440,0L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
- -->
 
-<div class="container">
+
+
+<!-- BODY -->
+<div id="aboutme" class="container mt-5">
+	<div class="row justify-content-center mt-5">
+		<div class="col-md mt-5">
+		    <h1 class="font1">ABOUT ME:</h1>
+		    <p class="font5">I am a student web designer and developer from San Jose, CA.</p>
+	   		<p class="font5">I have a passion for building websites that provide beneficial service to all my clients </p>
+	   		<p class="font5">A fast learner with strong time management and multi-tasking skills</p>
+	   	   	<p class="font5">If your interested in Hiring me you can dowload my resume from the dropbox link below. </p>
+	   	   	<a href="https://www.dropbox.com/s/mzhkmsdk4v8f4du/DKPResume.docx?dl=0"><p class="font5">RESUME</p></a>
+	   
+	    </div>
+		<div class="col-sm mt-5">
+   	    	<img src="dkpfavicon.jpg" class="img-fluid" alt="...">
+		</div>
+	</div>
+</div>
+
+
+<!-- Waves -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,288L40,261.3C80,235,160,181,240,176C320,171,400,213,480,197.3C560,181,640,107,720,96C800,85,880,139,960,181.3C1040,224,1120,256,1200,240C1280,224,1360,160,1400,128L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+
+
+<div class="skills-bg">
+<div class="container text-center">
   <div class="row">
-    <div class="col-sm">
-    <h1 class="text-center">Skills</h1>
-  		<img src="python.png" class="rounded" alt="...">
-  		<img src="python.png" class="rounded" alt="...">
-  		<img src="python.png" class="rounded" alt="...">
+  <h1 class="font6">Proficiencies</h1>
+    <div class="col">
+    
+       	<img src="python2.png" class="img-fluid" width="150" height="150" alt="...">
+        <img src="java.png" class="img-fluid" width="150" height="150" alt="...">
+        <img src="mongodb.png" class="img-fluid" width="150" height="150" alt="...">
+        <img src="nodejs.png" class="img-fluid" width="150" height="150" alt="...">
+        <img src="react.png" class="img-fluid" width="150" height="150" alt="...">
+        <img src="html5.png" class="img-fluid" width="150" height="150" alt="...">
+        <img src="css.png" class="img-fluid" width="150" height="150" alt="...">
+        <img src="django2.png" class="img-fluid" width="150" height="150" alt="...">
+
+    
     </div>
   </div>
+</div>
+</div>
+
+<!-- WAVES -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,64L34.3,74.7C68.6,85,137,107,206,128C274.3,149,343,171,411,186.7C480,203,549,213,617,192C685.7,171,754,117,823,117.3C891.4,117,960,171,1029,170.7C1097.1,171,1166,117,1234,85.3C1302.9,53,1371,43,1406,37.3L1440,32L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+
+
+
+<div class="container mt-5">
+	<div class="row justify-content-center">
+	
+		<div class="col-sm">
+   	    	<img src="codingdojo.jpeg" class="img-fluid" alt="...">
+		</div>
+		
+		<div class="col-md">
+		    <h1 class="font1">WHERE I LEARNED:</h1>
+		    <p class="font5">Coding Dojo - San Jose, CA</p>
+	   		<p class="font5">1920 Zanker Rd #20, San Jose, CA 95112</p>
+	   		<a href="https://codingdojo.com"><p class="font5">WWW.CODINGDOJO.COM</p></a>
+
+	   		
+	   	   	<p class="font5">HTML & CSS - COMPLETED</p>
+	   	   	<p class="font5">Python - COMPLETED</p>
+	   	    <p class="font5">JAVA - COMPLETED</p>
+	   	   	<p class="font5">MERN - IN PROGRESS</p>
+	   	    
+	   	   	
+	   
+	    </div>
+
+	</div>
 </div>
 
 
 
 
 
+<!-- Waves -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,288L40,261.3C80,235,160,181,240,176C320,171,400,213,480,197.3C560,181,640,107,720,96C800,85,880,139,960,181.3C1040,224,1120,256,1200,240C1280,224,1360,160,1400,128L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
 
 
+<div class="skills-bg">
+<div class="container text-center">
+  <div class="row">
+  <h1 class="font6">Links to Find Me</h1>
+    <div class="col">
+    
+	       <a href="https://github.com/Dylankp101"><img src="githubcolor.png" class="img-fluid" width="300" height="300" alt="..."></a>
+	       <a href="https://www.linkedin.com/in/dylan-katrenick-perez-16b6aa167/"><img src="linkedincolor.png" class="img-fluid" width="300" height="300" alt="..."></a>
+	       <a href="https://www.dropbox.com/s/mzhkmsdk4v8f4du/DKPResume.docx?dl=0"><img src="dropbox.png" class="img-fluid" width="300" height="300" alt="..."></a>
+
+    
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- WAVES -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,64L34.3,74.7C68.6,85,137,107,206,128C274.3,149,343,171,411,186.7C480,203,549,213,617,192C685.7,171,754,117,823,117.3C891.4,117,960,171,1029,170.7C1097.1,171,1166,117,1234,85.3C1302.9,53,1371,43,1406,37.3L1440,32L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+
+
+
+
+
+
+<div class="container text-center">
+<h1 class="font2">Technical Projects</h1>
+	<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <a href="http://hairbysadiemae.com/"><img src="hbsm.png" class="d-block w-100" alt="..."></a>
+	    </div>
+	        
+	  </div>
+	</div>
+</div>
+
+
+
+
+<!-- Waves -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,288L40,261.3C80,235,160,181,240,176C320,171,400,213,480,197.3C560,181,640,107,720,96C800,85,880,139,960,181.3C1040,224,1120,256,1200,240C1280,224,1360,160,1400,128L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
 
 
 
