@@ -66,22 +66,28 @@
 
 <!-- BODY -->
 <div id="aboutme" class="container mt-5">
-	<div class="row justify-content-center mt-5">
-		<div class="col-md mt-5">
-		    <h1 class="font1">ABOUT ME:</h1>
-		    <p class="font5">I am a student web designer and developer from San Jose, CA.</p>
-	   		<p class="font5">I have a passion for building websites that provide beneficial service to all my clients </p>
-	   		<p class="font5">A fast learner with strong time management and multi-tasking skills</p>
-	   	   	<p class="font5">If your interested in Hiring me you can dowload my resume from the dropbox link below. </p>
-	   	   	<a href="https://www.dropbox.com/s/mzhkmsdk4v8f4du/DKPResume.docx?dl=0"><p class="font5">RESUME</p></a>
-	   
+
+	<div class="row ">
+		<div class="col">
+	   		<div class="card-fluid w-100" style="width: 18rem;">
+		 		<div class="card-body">
+				    <h1 class="font1">ABOUT ME:</h1>
+				    <h3 class="font5">I am a web designer and developer from San Jose, CA.</h3>
+			   		<h3 class="font5">I have a passion for building websites, I am currently a student at Coding Dojo. </h3>
+			   		<h3 class="font5">A fast learner with strong time management, multi-tasking skills and determination.</h3>
+			   	   	<h3 class="font5">If your interested in Hiring me you can dowload my resume from the dropbox link below. </h3>
+			   	   	<a href="https://www.dropbox.com/s/mzhkmsdk4v8f4du/DKPResume.docx?dl=0"><h3 class="font5">RESUME</h3></a>
+	  			</div>
+			</div>
 	    </div>
-		<div class="col-sm mt-5">
-   	    	<img src="dkpfavicon.jpg" class="img-fluid" alt="...">
-		</div>
+	    <div class="col">
+	   		<div class="card-fluid w-100" style="width: 18rem;">
+	   			<img src="dkpfavicon.jpg" class="img-fluid" alt="...">	   			
+
+			</div>
+	    </div>
 	</div>
-		<img src="ufo.png" class="ufo" alt="...">
-	
+		<img src="ufo.png" class="ufo" alt="...">	
 </div>
 
 
@@ -118,25 +124,46 @@
 <div class="container mt-5">
 	<div class="row justify-content-center">
 	
-		<div class="col-sm">
-   	    	<img src="codingdojo.jpeg" class="img-fluid" alt="...">
-		</div>
+
 		
-		<div class="col-md">
-		    <h1 class="font1">WHERE I LEARNED:</h1>
+		<div class="col-md mt-4">
+			<div class="card w-100" style="width: 18rem;">
+	  			<img src="dazoom.png" class="card-img-top" alt="...">
+	 		<div class="card-body">
+		    <h1 class="font1">COLLEGE:</h1>
+		    <p class="font5">De Anza College - San Jose, CA</p>
+	   		<p class="font5">21250 Stevens Creek Blvd, Cupertino, CA 95014</p>
+	   		<a href="https://www.deanza.edu/"><p class="font5">WWW.DEANZA.EDU</p></a>
+			<br>
+			<br>   		
+	   	   	<p class="font3">AAT - POLITICAL SCIENCE</p>
+	   	   	<p class="font3">AA - SOCIAL AND BEHAVIORAL SCIENCE</p>
+	   	    <p class="font3">&nbsp</p>
+	   	   	<p class="font3">&nbsp</p>
+  			</div>
+			</div>
+	   
+	    </div>
+
+		<div class="col-md mt-4">
+			<div class="card w-100" style="width: 18rem;">
+	  			<img src="cdojo.jpg" class="card-img-top" alt="...">
+	 		<div class="card-body">
+		    <h1 class="font1">CODING BOOTCAMP:</h1>
 		    <p class="font5">Coding Dojo - San Jose, CA</p>
 	   		<p class="font5">1920 Zanker Rd #20, San Jose, CA 95112</p>
 	   		<a href="https://codingdojo.com"><p class="font5">WWW.CODINGDOJO.COM</p></a>
 			<br>
 			<br>   		
-	   	   	<p class="font3">HTML & CSS - COMPLETED</p>
+	   	   	<p class="font3">HTML/CSS - COMPLETED</p>
 	   	   	<p class="font3">Python - COMPLETED</p>
 	   	    <p class="font3">JAVA - COMPLETED</p>
-	   	   	<p class="font3">MERN - IN PROGRESS</p>
-	   	    
-	   	   	
-	   
-	    </div>
+	   	   	<p class="font7">MERN - IN PROGRESS</p>
+  			</div>
+			</div>
+		
+		</div>
+
 
 	</div>
 </div>

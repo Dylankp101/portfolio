@@ -58,13 +58,16 @@
 font-family: 'Press Start 2P', cursive;
 	color: green;
 }
+.font7{
+font-family: 'Press Start 2P', cursive;
+	color: orange;
+}
 .font4{
 font-family: 'Rock Salt', cursive;
 	
 }
 .font5{
 font-family: 'Special Elite', cursive;
-	    font-size: 150%;
 	
 }
 
@@ -80,11 +83,12 @@ font-family: 'Special Elite', cursive;
 	position: center;
 	animation-name: fly;
 	animation-duration: 10s;
+	animation-delay:3s;
 	animation-fill-mode: both;
-	animation-iteration-count: 2;	
+	animation-iteration-count: 1;	
 }
 @keyframes fly{
-	from{ transform: translateY(600px)}
+	from{ transform: translateY(1100px)}
 	to{ transform: translateY(-1100px)}
 }
 .rocket2{
@@ -93,11 +97,12 @@ font-family: 'Special Elite', cursive;
 	position: center;
 	animation-name: fly2;
 	animation-duration: 6.5s;
+	animation-delay:2s;
 	animation-fill-mode: both;
-	animation-iteration-count: 3;	
+	animation-iteration-count: 1;	
 }
 @keyframes fly2{
-	from{ transform: translateY(600px)}
+	from{ transform: translateY(1100px)}
 	to{ transform: translateY(-1100px)}
 }
 .rocket3{
@@ -106,11 +111,12 @@ font-family: 'Special Elite', cursive;
 	position: center;
 	animation-name: fly3;
 	animation-duration: 4.5s;
+	animation-delay:3s;
 	animation-fill-mode: both;
 	animation-iteration-count: 1;	
 }
 @keyframes fly3{
-	from{ transform: translateY(600px)}
+	from{ transform: translateY(1100px)}
 	to{ transform: translateY(-1100px)}
 }
 .rocket4{
@@ -120,10 +126,10 @@ font-family: 'Special Elite', cursive;
 	animation-name: fly4;
 	animation-duration: 8s;
 	animation-fill-mode: both;
-	animation-iteration-count: 2;	
+	animation-iteration-count: 1;	
 }
 @keyframes fly4{
-	from{ transform: translateY(600px)}
+	from{ transform: translateY(1100px)}
 	to{ transform: translateY(-1100px)}
 }
 .rocket5{
@@ -136,7 +142,7 @@ font-family: 'Special Elite', cursive;
 	animation-iteration-count: 1;	
 }
 @keyframes fly5{
-	from{ transform: translateY(600px)}
+	from{ transform: translateY(1100px)}
 	to{ transform: translateY(-1100px)}
 }
 
@@ -146,11 +152,13 @@ font-family: 'Special Elite', cursive;
 	position: center;
 	animation-name: fly6;
 	animation-duration: 4s;
+		animation-delay:1s;
+	
 	animation-fill-mode: both;
 	animation-iteration-count: 1;	
 }
 @keyframes fly6{
-	from{ transform: translateY(600px)}
+	from{ transform: translateY(1100px)}
 	to{ transform: translateY(-1100px)}
 }
 .rocket7{
@@ -160,10 +168,12 @@ font-family: 'Special Elite', cursive;
 	animation-name: fly7;
 	animation-duration: 5s;
 	animation-fill-mode: both;
-	animation-iteration-count: 2;	
+			animation-delay:2s;
+	
+	animation-iteration-count: 1;	
 }
 @keyframes fly7{
-	from{ transform: translateY(600px)}
+	from{ transform: translateY(1100px)}
 	to{ transform: translateY(-1100px)}
 }
 .rocket8{
@@ -173,10 +183,10 @@ font-family: 'Special Elite', cursive;
 	animation-name: fly8;
 	animation-duration: 6s;
 	animation-fill-mode: both;
-	animation-iteration-count: 3;	
+	animation-iteration-count: 1;	
 }
 @keyframes fly8{
-	from{ transform: translateY(600px)}
+	from{ transform: translateY(1100px)}
 	to{ transform: translateY(-1100px)}
 }
 
@@ -186,11 +196,13 @@ font-family: 'Special Elite', cursive;
 	position: center;
 	animation-name: fly9;
 	animation-duration: 7s;
+			animation-delay:5s;
+	
 	animation-fill-mode: both;
-	animation-iteration-count: 2;	
+	animation-iteration-count: 1;	
 }
 @keyframes fly9{
-	from{ transform: translateY(600px)}
+	from{ transform: translateY(1100px)}
 	to{ transform: translateY(-1100px)}
 }
 .rocket10{
@@ -199,11 +211,13 @@ font-family: 'Special Elite', cursive;
 	position: center;
 	animation-name: fly10;
 	animation-duration: 9s;
+			animation-delay:4s;
+	
 	animation-fill-mode: both;
 	animation-iteration-count: 1;	
 }
 @keyframes fly10{
-	from{ transform: translateY(600px)}
+	from{ transform: translateY(1100px)}
 	to{ transform: translateY(-1100px)}
 }
 .ufo{
@@ -214,6 +228,6 @@ font-family: 'Special Elite', cursive;
 	animation-iteration-count: infinite;	
 }
 @keyframes ufofly{
-	from{ transform: translateX(1500px)}
-	to{ transform: translateX(-600px)}
+	from{ transform: translateX(1700px)}
+	to{ transform: translateX(-900px)}
 }
